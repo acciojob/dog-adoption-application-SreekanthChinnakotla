@@ -25,12 +25,12 @@
 		</div>
 		<div>
 		<label for="checkbox">Have you ever lived with a Dog before?</label>
-		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?" required>
 		</div>
 		<div>
 			<div>
 				<label for="multiSelect">Please select your preferred breeds</label>
-		<select multiple id="multiSelect">
+		<select multiple id="multiSelect" aria-required>
   <option value="option1">Option 1</option>
   <option value="option2">Option 2</option>
   <option value="option3">Option 3</option>
@@ -39,6 +39,7 @@
 		</div>
 		</div>
 	<button id="submit" type="submit" value="Submit">Submit</button>
+	</button>
 	</form>
 </body>
 
